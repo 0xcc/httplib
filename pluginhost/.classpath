@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="libs/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="libs/library-1.0.19.jar" sourcepath="D:/newworkspace/libs/library-1.0.19-sources.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/pluginlib.jar" sourcepath="/pluginlib"/>
+	<classpathentry kind="lib" path="libs/okhttp-3.2.0.jar"/>
+	<classpathentry kind="lib" path="libs/okio-1.8.0.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

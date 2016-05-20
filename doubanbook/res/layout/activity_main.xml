@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+	<LinearLayout android:orientation="horizontal"
+	    android:layout_width="match_parent" 
+	    android:layout_height="60dp"
+	    android:padding="5dp">
+	    
+	  <EditText android:id="@+id/editTxtSearch" 
+	      	android:layout_width="match_parent"
+	      	android:layout_height="match_parent"
+	      	android:layout_gravity="bottom"
+	      	android:imeOptions="actionSearch"
+	      	android:inputType="text"
+	      	android:hint="书名、作者"
+	      	android:background="@android:drawable/edit_text"
+	      	android:layout_weight="2"
+	      	/>
+	  
+	  <ImageButton android:id="@+id/btnScanIsbn" 
+	      android:layout_width="match_parent"
+	      android:layout_height="match_parent" 
+	      android:layout_gravity="bottom"
+	      android:background="@drawable/scan"
+	      android:layout_weight="7"/>
+	    
+	</LinearLayout>
+	
+ 	<FrameLayout android:id="@+id/container"
+ 	    		android:layout_width="match_parent"
+ 	    		android:layout_height="wrap_content"
+ 	    		android:layout_marginTop="20dp"
+ 	    		>
+ 	    
+ 	</FrameLayout>
+    
+ 
+
+</LinearLayout>

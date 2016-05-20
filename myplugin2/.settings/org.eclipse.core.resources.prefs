@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/mike/plugin/app/MyApp.java=UTF-8
+encoding//src/mike/plugin/model/IWeatherModel.java=UTF-8
+encoding//src/mike/plugin/model/entity/Weather.java=UTF-8
+encoding//src/mike/plugin/model/entity/WeatherInfo.java=UTF-8
+encoding//src/mike/plugin/model/impl/WeatherModelImpl.java=UTF-8
+encoding//src/mike/plugin/presenter/IOnWeatherListener.java=UTF-8
+encoding//src/mike/plugin/presenter/IWeatherPresenter.java=UTF-8
+encoding//src/mike/plugin/presenter/impl/WeatherPresenterImpl.java=UTF-8
+encoding//src/mike/plugin/ui/view/IWeatherView.java=UTF-8
+encoding//src/mike/plugin/util/GsonRequest.java=UTF-8
+encoding//src/mike/plugin/util/VolleyRequest.java=UTF-8
+encoding/<project>=UTF-8
